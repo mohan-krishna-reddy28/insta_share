@@ -1,0 +1,36 @@
+.profile-post-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  list-style: none;
+}
+.profile-post-item {
+  margin-right: 10px;
+}
+.profile-post-image {
+  width: 330px;
+  height: 330px;
+}
+.no-post {
+  font-size: 30px;
+}
+.no-post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+@media screen and (max-width: 560px) {
+  .profile-post-container {
+    margin: 0;
+  }
+  .user-post-image {
+    width: 118px;
+    height: 118px;
+  }
+  .profile-post-item {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,90 @@
+.post-item {
+  margin: 30px 10px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px gray;
+}
+.post-name-container {
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 3px 13px;
+}
+.like-icon-btn {
+  background: transparent;
+  border: none;
+}
+.image-container {
+  background-image: linear-gradient(#e20337, #c60188, #7700c3);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.post-username {
+  font-size: 14px;
+  font-weight: 500;
+}
+.post-pic {
+  width: 100%;
+  height: 614px;
+}
+.post-icons-container {
+  display: flex;
+  gap: 14px;
+  margin-top: 5px;
+}
+.comment-msg {
+  margin: 3px 0;
+}
+.comment-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.comments-list {
+  padding: 0;
+  list-style: none;
+}
+.likes-count {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.comment {
+  margin: 6px 0;
+}
+.comment-name {
+  font-weight: 500;
+}
+.caption {
+  margin: 6px 0;
+}
+.created-at {
+  color: #989898;
+  margin: 7px 0;
+}
+.more-details {
+  padding: 3px 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .post-item {
+    margin: 20px 0;
+  }
+  .post-pic {
+    height: 375px;
+  }
+  .comment {
+    margin: 8px 0;
+  }
+}
