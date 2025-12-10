@@ -10,6 +10,13 @@
 .profile-container {
   margin: 0 110px;
 }
+.loader-view {
+  min-height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .profile-img {
   width: 180px;
   height: 180px;
@@ -46,6 +53,7 @@
   align-items: center;
   margin-left: 14px;
   margin-bottom: 8px;
+  gap: 7px;
 }
 .post-heading {
   margin: 0;
@@ -64,10 +72,33 @@
 .profile-post-image {
   width: 330px;
   height: 330px;
+  padding: 10px;
 }
 .mobile-profile-img {
   display: none;
 }
+
+.stories-container {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-stories {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  margin-left: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.317);
+}
+.profile-post-container {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
   .profile-container {
     margin: 0 10px;
@@ -83,6 +114,11 @@
   }
   .profile-post-image {
     width: 110px;
+    padding: 5px;
     height: 110px;
+  }
+  .profile-stories {
+    width: 70px;
+    height: 70px;
   }
 }
